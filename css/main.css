@@ -1,0 +1,72 @@
+
+
+nav{ 
+   float: right; 
+   padding: 20px;
+   background: silver;
+   font-size: 20px;
+   width: 307px;
+   
+   
+   
+}
+
+p{
+  color: red;
+  text-shadow: 1px 2px 1px grey;
+  font-size: 22px;
+  float: right;
+  width: 840px;
+  
+  
+}
+
+
+h1{
+   border-style: dotted;
+   border-color: red;
+   border-width: 6px;
+   background: black;
+   opacity: 0.8;
+   color: white; 
+   text-shadow: 2px 2px 2px grey;
+   text-align: center;
+   border-width: 3px;
+   font-size: 86px;
+   
+  
+}
+
+article{
+        color: red;
+        text-shadow: 1px 2px 1px grey;
+        font-size: 20px
+}
+
+h2{
+   text-align: center;
+   font-size: 39px;
+   text-decoration: underline;
+}
+
+ul li{
+      float: right;
+      border-style: inset;
+      border-width: 20px;
+      border-color: white;
+}
+
+ol li{
+     text-align: center;
+     text-shadow: 1px 2px 2px grey;
+     font-size: 18px;
+}
+
+section{
+        border-style: dotted;
+        border-color: red;
+        
+     
+      
+   
+   
