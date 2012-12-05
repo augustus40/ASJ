@@ -1,15 +1,18 @@
 
 
 nav{ 
-   float: left; 
+   float: right; 
    font-size: 25px;
-   width: 377px;
-   margin: 78px;
+   width: 375px;
+   margin: 82px;
    opacity: 0.9;
-   padding: 20px;
-   background: navy;
-   opacity: 0.7;
-   
+   padding: 22px;
+   background: blue;
+  
+   text-shadow: 1px 1px 1px white;
+   border-style:inset;
+   border-color: red;
+   box-shadow:1px 2px 3px blue;
    
 }
 
@@ -17,12 +20,19 @@ p{
   color: white;
   text-shadow: 1px 2px 2px red;
   font-size: 27px;
-  width: 1320px;
+  width: 720px;
   line-height: 25px;
   font-family: charlemagne std;
-  padding: 45px;
+  padding: 40px;
   font-family: clicker script;
-  background: blue;
+  background: red;
+  border-style: inset;
+  border-width: 12px;
+  border-color: navy;
+  text-align: center;
+  opacity: 0.8;
+ 
+  
   
   
 }
@@ -30,34 +40,35 @@ p{
 
 h1{
    border-style: outset;
-   border-color: navy ;
-   border-width: 7px;
+   border-color: navy;
+   border-width: 10px;
    background: blue; 
    line-height: 56px;
-   margin: 6px;
-   text-shadow: 5px 4px 4px white;
+   margin: 4px;
+   text-shadow: 3px 8px 5px white;
    text-align: center;
    font-size: 85px;
-   float: right;
+   float: left;
    font-family: desdemona;
    width: 1342px;
    color: navy;
    padding: 20px;
-   box-shadow: 1px 2px 3px yellow;
+   box-shadow: 1px 3px 5px red;
      
 }
 
 article{
         color: navy;
-        text-shadow: 1px 2px 1px red;
+        text-shadow: 3px 2px 3px white;
         font-size: 27px;
         line-height: 30px;
         font-family: charlemagne std;
-        width: 1380px;
+        width: 1230px;
         font-family: clicker script;
         padding: 20px;
         text-align: center;
         float: right;
+        
       
 }
 
@@ -67,16 +78,24 @@ h2{
    text-decoration: underline;
    color: red;
    font-family: desdemona;
-   text-shadow: 1px 3px 2px red   
+   text-shadow: 1px 3px 2px white; 
+   float:left;
+   width: 1290px;
+   background: blue;
+   border-style: outset;
+   
+ 
 }
 
 ul li{
       float: left;
-      border-width: 20px;
-      border-color: blue;
+      border-width: 23px;
+      border-color: red;
       list-style-type: none;
-      border-style: inset;
-      background: red; 
+      border-style: outset;
+      background: red;
+      
+      
       
       
 }
@@ -84,15 +103,14 @@ ul li{
 ol li{
      text-align: center;
      text-shadow: 1px 2px 3px white;
-     font-size: 18px;
+     font-size: 1em/'18px'/;
      color: white;
-     width: 1290px;
+     width: 1220px;
      float: left;
      background: red; 
      border-style: dotted;
      border-color: blue;
      border-width: 2px;
-     opacity: 0.8;
      list-style-type: none;
      
      
@@ -102,16 +120,19 @@ section{
        border-style: outset;
        border-color: blue;
        border-width: 10px;
-       width: 1387px;
-       float: right;
+       width: 1325px;
+       float: left;
+       opacity: 0.9
        
        
        
 }
 
 img{
-    width: 1385px;
+    width: 1375px;
     height: 450px;
+    float: right;
+    box-shadow: 2px 2px 4px red
     
 }
 
@@ -146,11 +167,34 @@ a:active{
 
 body{
      background: silver ;
+     width: 1410px;
+     font: 16px;
+  
 }
 
 .ad{
     text-align: left;
 }
+
+
+#wrapper{
+        width: 1300px;
+        margin: 0 auto;
+        background: navy;
+}
+
+.intro{
+       font-weight: normal;
+       overflow: hidden;
+       
+}
+
+.ad{
+    font-weight: normal;
+     overflow: hidden;
+     text-shadow: 1px 2px 3px;
+        
+        
 
 
 
@@ -165,6 +209,29 @@ body{
       
    
    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
