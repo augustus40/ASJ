@@ -43,13 +43,13 @@ h1{
    border-width: 25px;
    background: orange; 
    line-height: 175px;
-   margin: 52px;
+   margin: 15px;
    text-shadow: 3px 3px 3px red;
    text-align: center;
    font-size: 75px;
    float: left;
    font-family: desdemona;
-   width: 1212px;
+   width: 1180px;
    color: navy;
    padding: 20px;
    box-shadow: 1px 3px 5px red;
@@ -215,6 +215,7 @@ body{
       
    
    
+
 
 
 
