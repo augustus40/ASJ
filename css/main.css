@@ -8,11 +8,10 @@ nav{
    opacity: 0.9;
    padding: 22px;
    background: blue;
-  
    text-shadow: 1px 1px 1px white;
-   border-style:inset;
-   border-color: red;
-   box-shadow:1px 2px 3px blue;
+   border-style:outset;
+   border-color: blue;
+   box-shadow:1px 2px 3px navy;
    
 }
 
@@ -20,14 +19,14 @@ p{
   color: white;
   text-shadow: 1px 2px 2px red;
   font-size: 27px;
-  width: 720px;
+  width: 710px;
   line-height: 25px;
   font-family: charlemagne std;
   padding: 40px;
   font-family: clicker script;
   background: red;
   border-style: inset;
-  border-width: 12px;
+  border-width: 17px;
   border-color: navy;
   text-align: center;
   opacity: 0.8;
@@ -40,34 +39,38 @@ p{
 
 h1{
    border-style: outset;
-   border-color: navy;
-   border-width: 10px;
-   background: blue; 
-   line-height: 56px;
-   margin: 4px;
-   text-shadow: 3px 8px 5px white;
+   border-color: red;
+   border-width: 25px;
+   background: orange; 
+   line-height: 175px;
+   margin: 52px;
+   text-shadow: 3px 3px 3px red;
    text-align: center;
-   font-size: 85px;
+   font-size: 75px;
    float: left;
    font-family: desdemona;
-   width: 1342px;
+   width: 1212px;
    color: navy;
    padding: 20px;
    box-shadow: 1px 3px 5px red;
-     
 }
 
 article{
-        color: navy;
+        color: white;
         text-shadow: 3px 2px 3px white;
-        font-size: 27px;
-        line-height: 30px;
+        font-size: 29px;
+        background: blue;
+        line-height: 25px;
         font-family: charlemagne std;
-        width: 1230px;
+        width: 1260px;
         font-family: clicker script;
-        padding: 20px;
+        padding: 15px;
         text-align: center;
-        float: right;
+        box-shadow: 1px 2px 1px red;
+        border-color:navy;
+        border-style: outset;
+        border-width: 5px
+        
         
       
 }
@@ -76,14 +79,14 @@ h2{
    text-align: center;
    font-size: 45px;
    text-decoration: underline;
-   color: red;
+   color: navy;
    font-family: desdemona;
-   text-shadow: 1px 3px 2px white; 
+   text-shadow: 1px 2px 2px red; 
    float:left;
-   width: 1290px;
-   background: blue;
-   border-style: outset;
-   
+   width: 1287px;
+   background: orange;
+   border-style:inset;
+   border-width: 5px
  
 }
 
@@ -107,11 +110,11 @@ ol li{
      color: white;
      width: 1220px;
      float: left;
-     background: red; 
-     border-style: dotted;
-     border-color: blue;
-     border-width: 2px;
+     background: red;
+     padding:2px;
+     border-width:2px;
      list-style-type: none;
+     opacity: 0.9
      
      
 }
@@ -119,19 +122,20 @@ ol li{
 section{
        border-style: outset;
        border-color: blue;
-       border-width: 10px;
-       width: 1325px;
+       border-width: 8px;
+       width: 1275px;
        float: left;
-       opacity: 0.9
+       opacity: 0.9;
+      padding-left: 2px;
        
        
        
 }
 
 img{
-    width: 1375px;
-    height: 450px;
-    float: right;
+    width: 1280px;
+    height: 650px;
+    float: left;
     box-shadow: 2px 2px 4px red
     
 }
@@ -166,9 +170,8 @@ a:active{
   }
 
 body{
-     background: silver ;
-     width: 1410px;
-     font: 16px;
+     background: red ;
+     font: 100% 1.5,desdemona:/'16px/;
   
 }
 
@@ -179,7 +182,7 @@ body{
 
 #wrapper{
         width: 1300px;
-        margin: 0 auto;
+        margin: 53px;
         background: navy;
 }
 
@@ -193,6 +196,9 @@ body{
     font-weight: normal;
      overflow: hidden;
      text-shadow: 1px 2px 3px;
+}
+
+
         
         
 
@@ -209,6 +215,19 @@ body{
       
    
    
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
