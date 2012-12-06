@@ -2,15 +2,15 @@
 
 nav{ 
    float: right; 
-   font-size: 25px;
-   width: 375px;
-   margin: 82px;
+   font-size: 3.1em/' 25px'/;
+   width: 28.846153846154%/' 375px'/;
+   margin:  21.866666666667%/'82px'/; 
    opacity: 0.9;
-   padding: 22px;
-   background: blue;
+   padding: 5.866666666667%/' 22px'/;
+   background: navy;
    text-shadow: 1px 1px 1px white;
-   border-style:outset;
-   border-color: blue;
+   border-style:inset;
+   border-color: red;
    box-shadow:1px 2px 3px navy;
    
 }
@@ -18,18 +18,18 @@ nav{
 p{
   color: white;
   text-shadow: 1px 2px 2px red;
-  font-size: 27px;
-  width: 710px;
-  line-height: 25px;
-  font-family: charlemagne std;
-  padding: 40px;
+  font-size:1.6875em/' 27px'/;
+  width: 54.615384615385%/' 710px'/;
+  line-height: 3.521126760563%/' 25px'/;
+  font-family: charlemagne std; 
+  padding: 5.633802816901%/' 40px'/;
   font-family: clicker script;
   background: red;
   border-style: inset;
-  border-width: 17px;
+  border-width:  2.394366197183%/'17px'/;
   border-color: navy;
   text-align: center;
-  opacity: 0.8;
+  
  
   
   
@@ -40,65 +40,62 @@ p{
 h1{
    border-style: outset;
    border-color: red;
-   border-width: 25px;
+   border-width: 1.923076923077%/' 25px'/;
    background: orange; 
-   line-height: 175px;
-   margin: 15px;
+   line-height:13.461538461538%/'175px'/;
+   margin:  1.153846153846%/' 15px'/;
    text-shadow: 3px 3px 3px red;
-   text-align: center;
-   font-size: 75px;
-   float: left;
+   font-size: 4.6875em/' 75px'/;
    font-family: desdemona;
-   width: 1180px;
+   width: 95.769230769231%/'1180px'/;
    color: navy;
-   padding: 20px;
+   padding: 1.694915254237%/' 20px'/;
    box-shadow: 1px 3px 5px red;
 }
 
 article{
         color: white;
         text-shadow: 3px 2px 3px white;
-        font-size: 29px;
-        background: blue;
-        line-height: 25px;
+        font-size: 1.8125em/' 29px'/;
+        background: navy;
+        line-height: 1.923076923077%/' 25px'/;
         font-family: charlemagne std;
-        width: 1260px;
+        width: 96.923076923077%/' 1260px'/;
         font-family: clicker script;
-        padding: 15px;
+        padding: 1.190476190476%/' 15px'/;
         text-align: center;
         box-shadow: 1px 2px 1px red;
         border-color:navy;
-        border-style: outset;
-        border-width: 5px
-        
+        border-style: inset;
+        border-width: .384615384615%/' 5px'/;
+        float: right;
         
       
 }
 
 h2{
    text-align: center;
-   font-size: 45px;
+   font-size: 2.8125em/' 45px'/;
    text-decoration: underline;
-   color: navy;
+   color: red;
    font-family: desdemona;
    text-shadow: 1px 2px 2px red; 
-   float:left;
-   width: 1287px;
+   width:.99%/' 1287px'/; 
    background: orange;
-   border-style:inset;
-   border-width: 5px
- 
+   border-style:outset;
+   border-width: .3885003885%/' 5px'/;
+  
 }
 
 ul li{
-      float: left;
-      border-width: 23px;
+      border-width: 1.769230769231%/' 23px'/;
       border-color: red;
       list-style-type: none;
-      border-style: outset;
+      border-style: inset;
       background: red;
-      
-      
+      text-align: center;
+      width: 15.076923076923%/'176px'/;
+      padding: .2840909090909%/' 5px'/;
       
       
 }
@@ -108,42 +105,41 @@ ol li{
      text-shadow: 1px 2px 3px white;
      font-size: 1em/'18px'/;
      color: white;
-     width: 1220px;
-     float: left;
-     background: red;
-     padding:2px;
-     border-width:2px;
+     width: 93.846153846154%/' 1220px'/; 
+     padding:.16393442623%/' 2px'/;
+     border-width: .153846153846%/'2px'/;
      list-style-type: none;
      opacity: 0.9
-     
+     float: left;
      
 }
 
 section{
        border-style: outset;
        border-color: blue;
-       border-width: 8px;
-       width: 1275px;
+       border-width: .615384615385%/'8px'/;
+       width: 98.076923076923%/' 1275px'/;
        float: left;
        opacity: 0.9;
-      padding-left: 2px;
-       
+       padding-left: .156862745098%/' 2px'/;
+      
        
        
 }
 
+
 img{
-    width: 1280px;
-    height: 650px;
+    width: 99.230769230769%/' 1280px'/;
+    height:  50.980392156863%/'650px'/;
     float: left;
     box-shadow: 2px 2px 4px red
     
 }
 
 aside{
-      float: left;
+      float: right;
       text-shadow: 1px 2px 1px blue;
-      color: blue;
+      color: white;
 }
 
 
@@ -175,14 +171,15 @@ body{
   
 }
 
+  
 .ad{
-    text-align: left;
+    overflow: hidden;
 }
 
 
 #wrapper{
-        width: 1300px;
-        margin: 53px;
+        width:  100%/'1300px'/;
+        margin: 4.076923076923%/' 53px'/;
         background: navy;
 }
 
@@ -194,11 +191,21 @@ body{
 
 .ad{
     font-weight: normal;
-     overflow: hidden;
+     overflow:hidden;
      text-shadow: 1px 2px 3px;
+     float: left;
 }
 
-
+h3{
+   color: red;
+   text-align: center;
+   line-height: 116px;
+   text-decoration: underline;
+   background: orange;
+   font-family: desdemona;
+   text-shadow: 2px 2px 2px red;
+   font-size: 24px;
+   border-style: inset;
         
         
 
@@ -215,6 +222,17 @@ body{
       
    
    
+
+
+
+
+
+
+
+
+
+
+
 
 
 
