@@ -2,7 +2,7 @@
 
 nav{ 
    float: right; 
-   font-size: 3.1em/' 25px'/;
+   font-size: 2.5em /' 25px'/;
    width: 28.846153846154%/' 375px'/;
    margin:  21.866666666667%/'82px'/; 
    opacity: 0.9;
@@ -18,16 +18,16 @@ nav{
 p{
   color: white;
   text-shadow: 1px 2px 2px red;
-  font-size:1.6875em/' 27px'/;
+  font-size: 1.6875em /'27px'/;
   width: 54.615384615385%/' 710px'/;
   line-height: 3.521126760563%/' 25px'/;
   font-family: charlemagne std; 
-  padding: 5.633802816901%/' 40px'/;
+   padding: 5.633802816901%/' 40px'/;
   font-family: clicker script;
   background: red;
   border-style: inset;
   border-width:  2.394366197183%/'17px'/;
-  border-color: navy;
+  border-color: red;
   text-align: center;
   
  
@@ -89,21 +89,21 @@ h2{
 
 ul li{
       border-width: 1.769230769231%/' 23px'/;
-      border-color: red;
+      border-color: orange;
       list-style-type: none;
       border-style: inset;
-      background: red;
+      background: white;
       text-align: center;
       width: 15.076923076923%/'176px'/;
       padding: .2840909090909%/' 5px'/;
-      
+      float: right;
       
 }
 
 ol li{
      text-align: center;
      text-shadow: 1px 2px 3px white;
-     font-size: 1em/'18px'/;
+     font-size: 1.5em/' 18px'/;
      color: white;
      width: 93.846153846154%/' 1220px'/; 
      padding:.16393442623%/' 2px'/;
@@ -129,7 +129,7 @@ section{
 
 
 img{
-    width: 99.230769230769%/' 1280px'/;
+    width: 98.461538461538%/' 1280px'/;
     height:  50.980392156863%/'650px'/;
     float: left;
     box-shadow: 2px 2px 4px red
@@ -151,12 +151,13 @@ a:hover{
 
 
 a:link{
-       color: white
+       color: white;
 }
 
 
 a:visited{
-          color: white;
+          color: red;
+         
     
   }
 
@@ -168,7 +169,7 @@ a:active{
 body{
      background: red ;
      font: 100% 1.5,desdemona:/'16px/;
-  
+      max-width: 100%;
 }
 
   
@@ -207,6 +208,44 @@ h3{
    font-size: 24px;
    border-style: inset;
         
+  
+  
+  
+  
+  /'Media queries
+    ____________________________________________________________________________________________________'/
+    
+    @media screen and (min-width:768px) and (max-width:959px){
+      #wrapper{ background-color: white;}
+      p{ border-color: navy; font-family: arial;}
+      article{ border-color: red; font-family: arial;}
+      nav{ float: none;}
+      
+      
+     
+     
+    }
+    
+    
+    @media only screen and (min-width:480px) and (mac-width:787px){
+      ol{ text-align: center; color: red; background: white;}
+      img{ width: 50%;}
+      ul{ background:orange;}
+      h1{ color: red; background: white;}
+      h2{ background: white; color: blue;}
+    }
+    
+    
+    @media only screen and (max-width: 479px){
+      body{ background-color: white;}
+      section{ display: none;}
+      nav{ background-color: red; border-style: outset;}
+      img{ display: none;}
+      h2{ float: right;}
+      h3{ float: right;}
+      p{ background: white; color:red;}
+      article{ background:red; color: white;}
+    }
         
 
 
@@ -222,6 +261,10 @@ h3{
       
    
    
+
+
+
+
 
 
 
