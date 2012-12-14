@@ -1,7 +1,6 @@
 
 
 nav{ 
-   float: right; 
    font-size: 2.5em /' 25px'/;
    width: 28.846153846154%/' 375px'/;
    margin:  21.866666666667%/'82px'/; 
@@ -9,7 +8,7 @@ nav{
    padding: 5.866666666667%/' 22px'/;
    background: navy;
    text-shadow: 1px 1px 1px white;
-   border-style:inset;
+   border-style: inset;
    border-color: red;
    box-shadow:1px 2px 3px navy;
    
@@ -41,14 +40,14 @@ h1{
    border-style: outset;
    border-color: red;
    border-width: 1.923076923077%/' 25px'/;
-   background: orange; 
+   background: navy; 
    line-height:13.461538461538%/'175px'/;
    margin:  1.153846153846%/' 15px'/;
    text-shadow: 3px 3px 3px red;
    font-size: 4.6875em/' 75px'/;
    font-family: desdemona;
    width: 95.769230769231%/'1180px'/;
-   color: navy;
+   color: white;
    padding: 1.694915254237%/' 20px'/;
    box-shadow: 1px 3px 5px red;
 }
@@ -57,7 +56,7 @@ article{
         color: white;
         text-shadow: 3px 2px 3px white;
         font-size: 1.8125em/' 29px'/;
-        background: navy;
+        background: red;
         line-height: 1.923076923077%/' 25px'/;
         font-family: charlemagne std;
         width: 96.923076923077%/' 1260px'/;
@@ -75,23 +74,24 @@ article{
 
 h2{
    text-align: center;
-   font-size: 2.8125em/' 45px'/;
+   font-size: 2.1em/' 45px'/;
    text-decoration: underline;
    color: red;
    font-family: desdemona;
-   text-shadow: 1px 2px 2px red; 
+   text-shadow: 1px 2px 2px white; 
    width:.99%/' 1287px'/; 
-   background: orange;
-   border-style:outset;
+   background: navy;
+   border-style:inset;
    border-width: .3885003885%/' 5px'/;
-  
+   border-color: red;
+   box-shadow: 3px 2px 3px
 }
 
 ul li{
       border-width: 1.769230769231%/' 23px'/;
-      border-color: orange;
+      border-color: navy;
       list-style-type: none;
-      border-style: inset;
+      border-style: outset;
       background: white;
       text-align: center;
       width: 15.076923076923%/'176px'/;
@@ -111,6 +111,10 @@ ol li{
      list-style-type: none;
      opacity: 0.9
      float: left;
+     background: red;
+     border-color: red;
+     border-style: inset;
+     padding: 0.1em;
      
 }
 
@@ -132,7 +136,9 @@ img{
     width: 98.461538461538%/' 1280px'/;
     height:  50.980392156863%/'650px'/;
     float: left;
-    box-shadow: 2px 2px 4px red
+    box-shadow: 2px 2px 4px red;
+    padding: 0.2em;
+    background-color: navy ;
     
 }
 
@@ -140,6 +146,7 @@ aside{
       float: right;
       text-shadow: 1px 2px 1px blue;
       color: white;
+      padding: 1.0em
 }
 
 
@@ -181,7 +188,9 @@ body{
 #wrapper{
         width:  100%/'1300px'/;
         margin: 4.076923076923%/' 53px'/;
-        background: navy;
+        border-style: inset;
+        background: orange;
+       
 }
 
 .intro{
@@ -202,13 +211,97 @@ h3{
    text-align: center;
    line-height: 116px;
    text-decoration: underline;
-   background: orange;
+   background: navy;
    font-family: desdemona;
-   text-shadow: 2px 2px 2px red;
-   font-size: 24px;
+   text-shadow: 2px 2px 2px white;
+   font-size: 1.5em;
    border-style: inset;
-        
+   padding: 0.4em;
+}
+
+
+table{
+      background-color: navy;
+      border-style: inset;
+      border-color: orange;
+      box-shadow: 1px 1px 2px white;
+      padding: 0.4em;
+      
+      
+}
+
+td{
+   color: white;
+   text-align: center;
+   text-shadow: 3px 2px 3px red;
+   border-style: inset;
+   border-color: white;
+   opacity: 0.7;
+   background: red;
+   padding: 0.3em;
+}
+
+
+th{
+   color: navy;
+   text-align: center;
+   box-shadow: 1px 2px 3px red;
+   border-style: outset; 
+   border-color: navy;
+   opacity:0.8;
+   background: white;
+}
+
+h5{
+   float: right;
+   color: red;
+   font-size: 1.0em;
+   padding: 4em;
+   text-shadow: 1px 1px 1px red;
+}
+
+form{
+     float: right;
+     padding: 0.7em;
+     width: 11.9em;
+     color: red;
+     background: navy;
+     
+     
+}
+
+input{
+      background: orange;
+      width: 16.2em;
+      border-style: inset;
+      border-color: red;
+}
+
+button{
+       color: white;
+       background: red;
+       border-style: outset;
+       border-color: red;
+       text-shadow: 1px 1px 1px red;
+
+
+
+h4{
+   color: red;
+   font-size: 1.6em;
+   padding: 0.2em;
+   text-shadow: 2px 2px 2px red;
+   width: 10.0em;
+   text-align: center;
+   box-shadow: 2px 2px 3px orange;
+   font-family: desdemona;
+   float: left;
+   border-width: 1.0em;
   
+  
+   
+  
+   
   
   
   
@@ -227,7 +320,7 @@ h3{
     }
     
     
-    @media only screen and (min-width:480px) and (mac-width:787px){
+    @media only screen and (min-width:480px) and (max-width:787px){
       ol{ text-align: center; color: red; background: white;}
       img{ width: 50%;}
       ul{ background:orange;}
@@ -238,9 +331,9 @@ h3{
     
     @media only screen and (max-width: 479px){
       body{ background-color: white;}
-      section{ display: none;}
+      section{ width: 60%; float: left;}
       nav{ background-color: red; border-style: outset;}
-      img{ display: none;}
+      img{ display: none; float: right;}
       h2{ float: right;}
       h3{ float: right;}
       p{ background: white; color:red;}
@@ -261,6 +354,22 @@ h3{
       
    
    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
